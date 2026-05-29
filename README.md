@@ -1,10 +1,10 @@
 # MiniKernel - Planificador de Procesos Multiprocesador
 
-Este proyecto consiste en la simulación de un MiniKernel que implementa un planificador de CPU multiprocesador utilizando el algoritmo de planificación **Round Robin**. El sistema consta de un generador de procesos y simula la ejecución concurrente en múltiples CPUs compartiendo una cola de procesos listos (*Ready Queue*).
+Este proyecto consiste en la simulación de un MiniKernel que implementa un planificador de CPU multiprocesador utilizando el algoritmo de planificación **Round Robin**. El sistema consta de un generador de procesos y simula la ejecución concurrente en múltiples CPUs compartiendo una cola de procesos listos.
 
 ## Estructura del Proyecto
 
-El repositorio está organizado siguiendo la estructura estándar requerida:
+El repositorio está organizado de la siguiente manera:
 
 * **include/**: Contiene los archivos de cabecera (`.h`).
 * **src/**: Contiene el código fuente principal (`.c`).
@@ -14,12 +14,11 @@ El repositorio está organizado siguiendo la estructura estándar requerida:
 
 ## Requisitos
 
-* Sistema Operativo basado en Linux (o WSL en Windows).
-* Compilador de C (`gcc`).
-* Librería de hilos POSIX (`pthread`).
+* Sistema Operativo basado en Linux o WSL en Windows.
+* Compilador de C.
+* Librería de hilos POSIX.
 
 ## Compilación y Ejecución
 
-Para compilación limpia y automática de todos los módulos estructurados, ejecute el siguiente comando en la raíz del proyecto:
-
-```bash make
+Para compilación limpia y automática de todos los módulos estructurados, se ejecuta el siguiente comando en la raíz del proyecto:
+**make**
